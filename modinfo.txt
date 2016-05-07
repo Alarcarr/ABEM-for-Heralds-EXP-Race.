@@ -1,2 +1,3 @@
-Name : ABEM Exp Lifestyle
+Name :ABEMExpLifestyle
+
 Compatibility: 200
