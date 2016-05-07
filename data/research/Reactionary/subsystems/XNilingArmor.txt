@@ -1,8 +1,8 @@
-Technology: SysNilingArmor
+Technology: XSysNilingArmor
 	Name: #R_SYS_NILINGARMOR
 	Description: #R_SYS_NILINGARMOR_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: ArmorHealth

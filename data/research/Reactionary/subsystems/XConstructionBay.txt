@@ -1,8 +1,8 @@
-Technology: ConstructionBay
+Technology: XConstructionBay
 	Name: #R_SYS_CONSTRUCTION_BAY
 	Description: #R_SYS_CONSTRUCTION_BAY_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 700
 	Time Cost: 60

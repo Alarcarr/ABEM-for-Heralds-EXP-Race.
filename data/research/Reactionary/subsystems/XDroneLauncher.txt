@@ -1,8 +1,8 @@
-Technology: DroneLauncher
+Technology: XDroneLauncher
 	Name: #R_SYS_DRONELAUNCHER
 	Description: #R_SYS_DRONELAUNCHER_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Health

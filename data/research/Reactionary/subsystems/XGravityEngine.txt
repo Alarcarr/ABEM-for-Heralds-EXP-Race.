@@ -1,8 +1,8 @@
-Technology: GravityEngine
+Technology: XGravityEngine
 	Name: #R_SYS_GRAVITY_ENGINE
 	Description: #R_SYS_GRAVITY_ENGINE_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

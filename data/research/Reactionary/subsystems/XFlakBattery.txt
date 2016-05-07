@@ -1,8 +1,8 @@
-Technology: FlakBattery
+Technology: XFlakBattery
 	Name: #R_SYS_FLAK_BATTERY
 	Description: #R_SYS_FLAK_BATTERY_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Damage

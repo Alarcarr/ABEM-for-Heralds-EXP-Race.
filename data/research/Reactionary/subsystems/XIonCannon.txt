@@ -1,8 +1,8 @@
-Technology: IonCannon
+Technology: XIonCannon
 	Name: #R_SYS_ION_CANNON
 	Description: #R_SYS_ION_CANNON_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

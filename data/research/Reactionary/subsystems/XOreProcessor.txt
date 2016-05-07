@@ -1,8 +1,8 @@
-Technology: OreProcessor
+Technology: XOreProcessor
 	Name: #R_SYS_ORE_PROCESSOR
 	Description: #R_SYS_ORE_PROCESSOR_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

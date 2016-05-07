@@ -1,8 +1,8 @@
-Technology: CrystalArmor
+Technology: XCrystalArmor
 	Name: #R_SYS_CRYSTAL_ARMOR
 	Description: #R_SYS_CRYSTAL_ARMOR_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: ArmorHealth2

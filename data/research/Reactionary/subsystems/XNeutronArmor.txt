@@ -1,8 +1,8 @@
-Technology: NeutronArmor
+Technology: XNeutronArmor
 	Name: #R_SYS_NEUTRON_ARMOR
 	Description: #R_SYS_NEUTRON_ARMOR_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

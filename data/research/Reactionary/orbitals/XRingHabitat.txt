@@ -1,8 +1,8 @@
-Technology: RingHabitat
+Technology: XRingHabitat
 	Name: #R_ORB_RING_HABITAT
 	Description: #R_ORB_RING_HABITAT_DESC
 	Class: Unlock
-	Category: Orbitals
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

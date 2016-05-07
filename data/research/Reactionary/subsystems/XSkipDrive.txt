@@ -1,8 +1,8 @@
-Technology: SkipDrive
+Technology: XSkipDrive
 	Name: #R_SYS_SKIP_DRIVE
 	Description: #R_SYS_SKIP_DRIVE_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

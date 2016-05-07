@@ -1,8 +1,8 @@
-Technology: QuantumCompressor
+Technology: XQuantumCompressor
 	Name: #R_MOD_QUANTUM_COMPRESSOR
 	Description: #R_MOD_QUANTUM_COMPRESSOR_DESC
 	Class: Unlock
-	Category: Modifiers
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

@@ -1,8 +1,8 @@
-Technology: HyperLaser
+Technology: XHyperLaser
 	Name: #R_SYS_HYPERLASER
 	Description: #R_SYS_HYPERLASER_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

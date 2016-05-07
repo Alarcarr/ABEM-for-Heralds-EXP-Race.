@@ -1,8 +1,8 @@
-Technology: EmergencySupplies
+Technology: XEmergencySupplies
 	Name: #R_SYS_EMERGENCY_SUPPLIES
 	Description: #R_SYS_EMERGENCY_SUPPLIES_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

@@ -1,8 +1,8 @@
-Technology: ArtificialPlanetoid
+Technology: XArtificialPlanetoid
 	Name: #R_ORB_ARTIFICIAL_PLANETOID
 	Description: #R_ORB_ARTIFICIAL_PLANETOID_DESC
 	Class: Unlock
-	Category: Orbitals
+	Category: Reactionary
 
 	Point Cost: 1000
 	Time Cost: 200

@@ -1,8 +1,8 @@
-Technology: Ramjet
+Technology: XRamjet
 	Name: #R_SYS_RAMJET
 	Description: #R_SYS_RAMJET_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

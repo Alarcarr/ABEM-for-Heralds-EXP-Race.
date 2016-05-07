@@ -1,8 +1,8 @@
-Technology: BoosterEngine
+Technology: XBoosterEngine
 	Name: #R_SYS_BOOSTER_ENGINE
 	Description: #R_SYS_BOOSTER_ENGINE_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Thrust

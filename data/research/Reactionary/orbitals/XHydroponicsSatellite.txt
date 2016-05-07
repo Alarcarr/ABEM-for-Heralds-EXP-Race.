@@ -1,8 +1,8 @@
-Technology: HydroponicsSatellite
+Technology: XHydroponicsSatellite
 	Name: #R_ORB_HYDROPONICS_SATELLITE
 	Description: #R_ORB_HYDROPONICS_SATELLITE_DESC
 	Class: Unlock
-	Category: Orbitals
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

@@ -1,8 +1,8 @@
-Technology: DestroyerHull
+Technology: XDestroyerHull
 	Name: #R_SYS_DESTROYER_HULL
 	Description: #R_SYS_DESTROYER_HULL_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Health

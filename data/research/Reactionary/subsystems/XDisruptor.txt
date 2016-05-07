@@ -1,8 +1,8 @@
-Technology: Disruptor
+Technology: XDisruptor
 	Name: #R_SYS_DISRUPTOR
 	Description: #R_SYS_DISRUPTOR_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Damage

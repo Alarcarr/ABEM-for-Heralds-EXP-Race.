@@ -1,8 +1,8 @@
-Technology: VacuumTelescope
+Technology: XVacuumTelescope
 	Name: #R_ORB_VACUUM_TELESCOPE
 	Description: #R_ORB_VACUUM_TELESCOPE_DESC
 	Class: Unlock
-	Category: Orbitals
+	Category: Reactionary
 
 	Point Cost: 900
 	Time Cost: 180

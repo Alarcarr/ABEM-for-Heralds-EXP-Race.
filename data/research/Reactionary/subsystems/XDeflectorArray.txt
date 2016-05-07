@@ -1,8 +1,8 @@
-Technology: DeflectorArray
+Technology: XDeflectorArray
 	Name: #R_SYS_DEFLECTOR_ARRAY
 	Description: #R_SYS_DEFLECTOR_ARRAY_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: ShieldCap2

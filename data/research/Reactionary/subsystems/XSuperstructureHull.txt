@@ -1,8 +1,8 @@
-Technology: SuperstructureHull
+Technology: XSuperstructureHull
 	Name: #R_SYS_SUPERSTRUCTURE_HULL
 	Description: #R_SYS_SUPERSTRUCTURE_HULL_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

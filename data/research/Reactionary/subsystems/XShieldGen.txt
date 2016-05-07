@@ -1,9 +1,9 @@
-Technology: ShieldGen
+Technology: XShieldGen
 	Name: #R_SYS_SHIELDGEN
 	Description: #R_SYS_SHIELDGEN_DESC
 
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

@@ -1,4 +1,4 @@
-Technology: Megacity
+Technology: XMegacity
 	Name: #R_BLD_MEGACITY
 	Description: #R_BLD_MEGACITY_DESC:16
 	Class: Unlock

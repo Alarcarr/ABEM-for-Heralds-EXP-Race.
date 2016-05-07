@@ -1,8 +1,8 @@
-Technology: TroopPods
+Technology: XTroopPods
 	Name: #R_SYS_TROOP_PODS
 	Description: #R_SYS_TROOP_PODS_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

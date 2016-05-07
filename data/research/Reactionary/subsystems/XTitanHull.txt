@@ -1,8 +1,8 @@
-Technology: TitanHull
+Technology: XTitanHull
 	Name: #R_SYS_TITAN_HULL
 	Description: #R_SYS_TITAN_HULL_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

@@ -1,8 +1,8 @@
-Technology: StarForge
+Technology: XStarForge
 	Name: #R_ORB_STARFORGE
 	Description: #R_ORB_STARFORGE_DESC
 	Class: Unlock
-	Category: Orbitals
+	Category: Reactionary
 
 	Point Cost: 1200
 	Time Cost: 180

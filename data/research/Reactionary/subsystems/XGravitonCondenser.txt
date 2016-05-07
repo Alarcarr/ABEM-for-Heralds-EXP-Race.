@@ -1,8 +1,8 @@
-Technology: GravitonCondenser
+Technology: XGravitonCondenser
 	Name: #R_SYS_GRAVITON_CONDENSER
 	Description: #R_SYS_GRAVITON_CONDENSER_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 1500
 	Time Cost: 140

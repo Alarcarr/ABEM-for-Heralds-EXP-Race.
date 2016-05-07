@@ -1,8 +1,8 @@
-Technology: CarrierHull
+Technology: XCarrierHull
 	Name: #R_SYS_CARRIER_HULL
 	Description: #R_SYS_CARRIER_HULL_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Health

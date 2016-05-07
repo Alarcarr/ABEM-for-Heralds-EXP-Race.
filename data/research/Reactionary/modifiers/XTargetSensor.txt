@@ -1,8 +1,8 @@
-Technology: TargetSensor
+Technology: XTargetSensor
 	Name: #R_MOD_TARGET_SENSOR
 	Description: #R_MOD_TARGET_SENSOR_DESC
 	Class: Unlock
-	Category: Modifiers
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 90

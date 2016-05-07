@@ -1,8 +1,8 @@
-Technology: ShockMissiles
+Technology: XShockMissiles
 	Name: #R_SYS_SHOCKMISSILES
 	Description: #R_SYS_SHOCKMISSILES_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Damage

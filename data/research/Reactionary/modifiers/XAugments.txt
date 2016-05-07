@@ -1,8 +1,8 @@
-Technology: AugmentReload
+Technology: XAugmentReload
 	Name: #R_MOD_AUGMENT_RELOAD
 	Description: #R_MOD_AUGMENT_RELOAD_DESC
 	Class: Unlock
-	Category: Modifiers
+	Category: Reactionary
 
 	Point Cost: 400
 	Time Cost: 60
@@ -15,11 +15,11 @@ Technology: AugmentReload
 
 	SecondaryMoneyCost(500)
 
-Technology: AugmentDamage
+Technology: XAugmentDamage
 	Name: #R_MOD_AUGMENT_DAMAGE
 	Description: #R_MOD_AUGMENT_DAMAGE_DESC
 	Class: Unlock
-	Category: Modifiers
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 60
@@ -30,11 +30,11 @@ Technology: AugmentDamage
 	UnlockModule(AugmentDamage)
 	SkipOnUnlockedModule(AugmentDamage)
 
-Technology: AugmentSupply
+Technology: XAugmentSupply
 	Name: #R_MOD_AUGMENT_SUPPLY
 	Description: #R_MOD_AUGMENT_SUPPLY_DESC
 	Class: Unlock
-	Category: Modifiers
+	Category: Reactionary
 
 	Point Cost: 500
 	Time Cost: 60

@@ -1,8 +1,8 @@
-Technology: PulseBolt
+Technology: XPulseBolt
 	Name: #R_SYS_PULSE_BOLT
 	Description: #R_SYS_PULSE_BOLT_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

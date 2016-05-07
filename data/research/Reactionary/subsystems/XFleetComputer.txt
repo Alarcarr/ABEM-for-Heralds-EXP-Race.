@@ -1,8 +1,8 @@
-Technology: FleetComputer
+Technology: XFleetComputer
 	Name: #R_SYS_FLEET_COMPUTER
 	Description: #R_SYS_FLEET_COMPUTER_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120

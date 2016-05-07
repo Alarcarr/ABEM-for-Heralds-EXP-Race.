@@ -1,4 +1,4 @@
-Technology: PlanetaryEngine
+Technology: XPlanetaryEngine
 	Name: #R_BLD_PLANET_ENGINE
 	Description: #R_BLD_PLANET_ENGINE_DESC
 	Class: Unlock

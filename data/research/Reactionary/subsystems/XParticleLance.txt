@@ -1,8 +1,8 @@
-Technology: ParticleLance
+Technology: XParticleLance
 	Name: #R_SYS_PARTICLELANCE
 	Description: #R_SYS_PARTICLELANCE_DESC
 	Class: Unlock
-	Category: Subsystems
+	Category: Reactionary
 
 	DLC: Heralds
 	DLC Replace: Damage
