@@ -1,0 +1,22 @@
+Technology: LifeInfiniteNano
+	Name: Nanotechnology
+	Description: #R_INFINITE_HEALTH_DESC:5%
+
+	Icon: techEnergy
+	Symbol: EditIcons::7
+	Color: #4f4c41
+
+	Category: InfinitesLifeStyle
+	Class: Keystone
+
+	Point Cost: 500
+	Time Cost: 60
+
+	AddPointCostAttribute(InfiniteNanoTaken, 300)
+	AddTimeCostAttribute(InfiniteHealthTaken, 15)
+
+	ResetWhenUnlocked()
+
+	AddModifier(HpFactor(1.05))
+	ModAttribute(OrbitalHealthMod, Multiply, 1.05)
+	ModAttribute(InfiniteHealthTaken, Add, 1)

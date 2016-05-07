@@ -1,0 +1,20 @@
+Technology: LifeInfiniteMegaconstruction
+	Name: Megaconstruction
+	Description: #R_INFINITE_THRUST_DESC:5%
+
+	Icon: GuiOrbitalIcons::24*#f8f808
+	Symbol: EditIcons::7
+	Color: #f8f808
+
+	Category: InfinitesLifeStyle
+	Class: Keystone
+
+	Point Cost: 400
+	Time Cost: 50
+
+	AddPointCostAttribute(InfiniteMegaTaken, 300)
+	AddTimeCostAttribute(InfiniteMegaTaken, 10)
+
+	ResetWhenUnlocked()
+
+	ModAttribute(InfiniteMegaTaken, Add, 1)
