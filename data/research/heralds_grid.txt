@@ -1,0 +1,7 @@
+Grid: Heralds
+	Science: -1,1
+	InfiniteDamage: 0,0
+	InfiniteHealth: 0,2
+	InfiniteSupport: -1,2
+	InfiniteThrust: -2,1
+	InfiniteShields: -1,0
