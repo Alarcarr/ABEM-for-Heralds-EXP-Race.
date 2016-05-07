@@ -1,0 +1,16 @@
+Technology: XFusionGen
+	Name: Fusion Generator
+	Description: #R_SYS_Fusion_DESC
+	Class: Unlock
+	Category: Reactionary
+
+	Time Cost: 90
+
+	Icon: FusionReactor
+	Color: #5ade8b
+
+	UnlockSubsystem(FusionGen)
+	SkipOnUnlockedSubsystem(FusionGen)
+
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 5, Need Energy Level 5 )
+	SecondaryEnergyCost(300)

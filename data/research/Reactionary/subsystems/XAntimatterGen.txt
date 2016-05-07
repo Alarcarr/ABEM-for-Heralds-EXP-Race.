@@ -13,4 +13,5 @@ Technology: XAntimatterGen
 	UnlockSubsystem(AntimatterGen)
 	SkipOnUnlockedSubsystem(AntimatterGen)
 
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 5, Need Energy Level 5 )
 	SecondaryEnergyCost(1000)

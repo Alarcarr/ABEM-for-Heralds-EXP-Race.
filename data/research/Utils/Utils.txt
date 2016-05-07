@@ -1,0 +1,3 @@
+Technology: Connector
+	Category: Utils
+	Class: Special
