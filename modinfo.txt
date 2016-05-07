@@ -1,3 +1,4 @@
-Name :ABEMExpLifestyle
+	Name: ABEMExpLifestyle
 
-Compatibility: 200
+	Compatibility: 200
+	Description: Experiments are Dangerous

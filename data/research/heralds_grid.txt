@@ -1,7 +1,16 @@
 Grid: Heralds
-	Science: -1,1
-	InfiniteDamage: 0,0
-	InfiniteHealth: 0,2
-	InfiniteSupport: -1,2
-	InfiniteThrust: -2,1
-	InfiniteShields: -1,0
+	LifeInfiniteShields: -1,6
+	LifeInfiniteEnergyWeapons: 1,6
+	LifeInfiniteEnergy: 0,4
+	Science: 0,2
+	LifeInfiniteMissileWeapons: 2,2
+	LifeInfiniteDamage: 2,3
+	LifeInfiniteArmor: 3,3
+	LifeInfiniteMetallurgy: -2,2
+	LifeInfiniteNano: -4,2
+	LifeInfiniteSociology: -1,0
+	LifeInfiniteHealth: 0,0
+	LifeInfiniteThrust: 1,3
+	LifeInfiniteSensors: -1,4
+	LifeInfiniteCargo: -1,-2
+	LifeInfiniteMegaconstruction: -3,0
