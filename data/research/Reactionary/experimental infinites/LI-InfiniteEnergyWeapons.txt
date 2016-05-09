@@ -12,10 +12,12 @@ Technology: LifeInfiniteEnergyWeapons
 	Point Cost: 700
 	Time Cost: 90
 
-	AddPointCostAttribute(InfiniteEnergyTech, 350)
-	AddTimeCostAttribute(InfiniteEnergyTech, 15)
+	AddPointCostAttribute(InfiniteEnergyWeaponsTech, 350)
+	AddTimeCostAttribute(InfiniteEnergyWeaponsTech, 15)
 
 	ResetWhenUnlocked()
 
+	AffectsTaggedSubsystems(IsReactor)
+	AddModifier( tag/IsReactor::PowerFactor(1.03) )
 	AddModifier( tag/BeamBase::DamageFactor(1.05) )
-	ModAttribute(InfiniteEnergyTech, Add, 1)
+	ModAttribute(InfiniteEnergyWeaponsTech, Add, 1)

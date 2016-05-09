@@ -12,12 +12,9 @@ Technology: LifeInfiniteChasis
 	Point Cost: 500
 	Time Cost: 60
 
-	AddPointCostAttribute(InfiniteHealthTaken, 300)
-	AddTimeCostAttribute(InfiniteHealthTaken, 15)
+	AddPointCostAttribute(InfiniteChasisTaken, 300)
+	AddTimeCostAttribute(InfiniteChasisTaken, 15)
 
 	ResetWhenUnlocked()
 
-	AddModifier(HpFactor(1.05))
-	AddModifier(ReactiveArmor::ImpactLevelFactor(1.05))
-	ModAttribute(OrbitalHealthMod, Multiply, 1.05)
-	ModAttribute(InfiniteHealthTaken, Add, 1)
+	ModAttribute(InfiniteChasisTaken, Add, 1)

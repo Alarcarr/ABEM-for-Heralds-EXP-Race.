@@ -17,7 +17,7 @@ Technology: LifeInfiniteShields
 
 	ResetWhenUnlocked()
 
-	AddModifier(ShieldCapacityFactor(1.07))
-	AddModifier(ShieldRegenFactor(1.07))
+	AddModifier(ShieldCapacityFactor(1.05))
+	AddModifier(ShieldRegenFactor(1.05))
 
 	ModAttribute(InfiniteShieldsTaken, Add, 1)

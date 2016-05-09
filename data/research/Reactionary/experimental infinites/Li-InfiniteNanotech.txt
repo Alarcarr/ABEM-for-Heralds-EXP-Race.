@@ -13,10 +13,8 @@ Technology: LifeInfiniteNano
 	Time Cost: 60
 
 	AddPointCostAttribute(InfiniteNanoTaken, 300)
-	AddTimeCostAttribute(InfiniteHealthTaken, 15)
+	AddTimeCostAttribute(InfiniteNanoTaken, 15)
 
 	ResetWhenUnlocked()
 
-	AddModifier(HpFactor(1.05))
-	ModAttribute(OrbitalHealthMod, Multiply, 1.05)
-	ModAttribute(InfiniteHealthTaken, Add, 1)
+	ModAttribute(InfiniteNanoTaken, Add, 1)
