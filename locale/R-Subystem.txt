@@ -1,0 +1,1 @@
+ARMOR_LEVEL_REQ : Armor tech leve. should be $1 or higher.

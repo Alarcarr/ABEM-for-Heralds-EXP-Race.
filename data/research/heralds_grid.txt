@@ -16,7 +16,6 @@ Grid: Heralds
 	LifeInfiniteChasis: 2,2
 	Connector: -1,3
 	LifeInfiniteCargo: -2,3
-	LifeInfiniteSociology: 0,4
 	LifeInfiniteNano: -1,-3
 	Connector: 1,-2
 	LifeInfiniteMissileWeapons: 1,-3
@@ -25,3 +24,4 @@ Grid: Heralds
 	LifeInfiniteThrust: -3,-2
 	LifeInfiniteMegaconstruction: 4,2
 	Connector: 3,2
+	LifeInfiniteArmor: 0,4
