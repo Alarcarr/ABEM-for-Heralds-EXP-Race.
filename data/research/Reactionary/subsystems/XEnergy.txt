@@ -12,7 +12,7 @@ Technology: XFusionGen
 	UnlockSubsystem(FusionGen)
 	SkipOnUnlockedSubsystem(FusionGen)
 
-	RequireEmpireAttributeGTE(InfiniteEnergyTech, 1, Require Energy Level 1)
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 1, #R_LIFESTYLE_REQ:Energy,1)
 	SecondaryEnergyCost(300)
 	
 Technology: XSolarPanel
@@ -33,7 +33,7 @@ Technology: XSolarPanel
 	SecondaryInfluenceCost(15)
 
 
-	RequireEmpireAttributeGTE(InfiniteEnergyTech, 3, Require Energy Level 3 )
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 3, #R_LIFESTYLE_REQ:Energy,3 )
 	
 Technology: XEmergencySupplies
 	Name: #R_SYS_EMERGENCY_SUPPLIES
@@ -51,7 +51,7 @@ Technology: XEmergencySupplies
 	SkipOnUnlockedSubsystem(EmergencySupplies)
 
 	SecondaryEnergyCost(500)
-	RequireEmpireAttributeGTE(InfiniteEnergyTech, 4, Require Energy Level 4 Tech)
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 4, #R_LIFESTYLE_REQ:Energy,4)
 	
 	
 	
@@ -70,7 +70,7 @@ Technology: XAntimatterGen
 	UnlockSubsystem(AntimatterGen)
 	SkipOnUnlockedSubsystem(AntimatterGen)
 
-	RequireEmpireAttributeGTE(InfiniteEnergyTech, 5, Require Energy Level 7 Tech)
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 5, #R_LIFESTYLE_REQ:Energy,5)
 	SecondaryEnergyCost(1000)
 	
 
@@ -91,7 +91,7 @@ Technology: XQuantumBattery
 	UnlockModule(QuantumBattery)
 	SkipOnUnlockedModule(QuantumBattery)
 	
-	RequireEmpireAttributeGTE(InfiniteEnergyTech, 6, Require Energy Level 6 Tech)
+	RequireEmpireAttributeGTE(InfiniteEnergyTech, 6, #R_LIFESTYLE_REQ:Energy,6)
 	
 	
 Technology: XQuantumCompressor

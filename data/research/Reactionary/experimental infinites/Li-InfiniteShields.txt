@@ -20,5 +20,5 @@ Technology: LifeInfiniteShields
 	AddModifier(ShieldCapacityFactor(1.05))
 	AddModifier(ShieldRegenFactor(1.05))
 
-	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 3, Require Energy tech to level 3)
+	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 3, #R_LIFESTYLE_REQ:Energy,3)
 	ModAttribute(InfiniteShieldsTaken, Add, 1)

@@ -12,7 +12,7 @@ Technology: XNeutronArmor
 	UnlockSubsystem(NeutronArmor)
 	SkipOnUnlockedSubsystem(NeutronArmor)
 
-	RequireEmpireAttributeGTE(InfiniteArmorTaken, 2, #ARMOR_LEVEL_REQ:2)
+	RequireEmpireAttributeGTE(InfiniteArmorTaken, 2, #R_LIFESTYLE_REQ:Armor,2)
 	SecondaryMoneyCost(1000)
 
 Technology: XLiquidArmor
@@ -32,7 +32,7 @@ Technology: XLiquidArmor
 
 	SecondaryInfluenceCost(10)
 
-	RequireEmpireAttributeGTE(InfiniteArmorTaken, 5, #ARMOR_LEVEL_REQ:5)
+	RequireEmpireAttributeGTE(InfiniteArmorTaken, 3, #R_LIFESTYLE_REQ:Armor,3)
 
 Technology: XNanoMesh
 	Name: #R_SYS_NANOMESH
@@ -53,7 +53,7 @@ Technology: XNanoMesh
 	SkipOnUnlockedSubsystem(NanoMesh)
 
 	SecondaryInfluenceCost(12)
-	RequireEmpireAttributeGTE(InfiniteArmorTaken, 5, #ARMOR_LEVEL_REQ:5)
+	RequireEmpireAttributeGTE(InfiniteArmorTaken, 4, #R_LIFESTYLE_REQ:Armor,4)
 
 Technology: XSysNilingArmor
 	Name: #R_SYS_NILINGARMOR
@@ -73,7 +73,7 @@ Technology: XSysNilingArmor
 	SkipOnUnlockedSubsystem(NilingArmor)
 
 	SecondaryEnergyCost(1500)
-	RequireEmpireAttributeGTE(InfiniteArmorTaken, 5, #ARMOR_LEVEL_REQ:5)
+	RequireEmpireAttributeGTE(InfiniteArmorTaken, 5, #R_LIFESTYLE_REQ:Armor,5)
 
 Technology: XCrystalArmor
 	Name: #R_SYS_CRYSTAL_ARMOR
@@ -94,4 +94,4 @@ Technology: XCrystalArmor
 	SkipOnUnlockedSubsystem(CrystalArmor)
 
 	SecondaryMoneyCost(1000)
-	RequireEmpireAttributeGTE(InfiniteArmorTaken, 5, #ARMOR_LEVEL_REQ:5)
+	RequireEmpireAttributeGTE(InfiniteArmorTaken, 6, #R_LIFESTYLE_REQ:Armor,4)

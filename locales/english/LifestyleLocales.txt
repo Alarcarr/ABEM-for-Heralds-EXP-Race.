@@ -1,3 +1,5 @@
+R_LIFESTYLE_REQ: Require $1 tech level $2
+
 INFINITE_METALLURGY_DESC: <<
 	[i][color=#aaa]Improvements to the use of materials and labor division in planetary surface factories.[/color][/i]
 

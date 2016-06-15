@@ -1,6 +1,6 @@
 Technology: LifeInfiniteMetallurgy
 	Name: Metallurgy
-	Description: #INFINITE_METALLURGY_DESC
+	Description: #INFINITE_METALLURGY_DESC:3
 
 	Icon: AffinityIcons::4
 	Symbol: EditIcons::7
@@ -17,5 +17,5 @@ Technology: LifeInfiniteMetallurgy
 
 	ResetWhenUnlocked()
 
-	ModAttribute(FactoryLaborMod, Add, 2)
+	ModAttribute(FactoryLaborMod, Add, 3)
 	ModAttribute(InfiniteMetallurgyTaken, Add, 1)
