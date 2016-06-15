@@ -1,27 +1,56 @@
 Grid: Heralds
-	Connector: -7,-1
 	Science: -2,0
-	LifeInfiniteEnergy: -3,0
-	Connector: -4,1
-	Connector: -4,-1
-	Connector: -4,2
-	LifeInfiniteSensors: -4,3
 	LifeInfiniteEnergyWeapons: -5,2
 	LifeInfiniteMaterials: -1,0
 	Connector: -1,1
 	Connector: -1,-1
 	Connector: 0,-2
-	LifeInfiniteMetallurgy: 0,2
 	Connector: 1,2
 	LifeInfiniteChasis: 2,2
 	Connector: -1,3
-	LifeInfiniteCargo: -2,3
-	LifeInfiniteNano: -1,-3
 	Connector: 1,-2
 	LifeInfiniteMissileWeapons: 1,-3
 	LifeInfiniteDamage: 1,-1
-	LifeInfiniteShields: -5,-1
-	LifeInfiniteThrust: -3,-2
-	LifeInfiniteMegaconstruction: 4,2
-	Connector: 3,2
-	LifeInfiniteArmor: 0,4
+	LifeInfiniteMetallurgy: -1,4
+	Connector: -1,5
+	Connector: 0,6
+	LifeInfiniteArmor: 0,7
+	XNeutronArmor: 1,7
+	XLiquidArmor: 0,8
+	XNanoMesh: -1,9
+	XCrystalArmor: -1,10
+	Connector: 0,2
+	XSysNilingArmor: 0,10
+	Connector: 2,3
+	Connector: 3,4
+	XSuperstructureHull: 3,1
+	XCarrierHull: 4,0
+	XSpinalMountHull: 4,2
+	Connector: 2,1
+	Connector: 5,2
+	XTitanHull: 5,3
+	XDestroyerHull: 5,1
+	XColossusHull: 6,4
+	LifeInfiniteMegaconstruction: 3,5
+	XPlasmaThrower: -6,2
+	Connector: -3,0
+	Connector: -3,-4
+	Connector: -2,-4
+	LifeInfiniteNano: -1,-4
+	Connector: -1,-3
+	LifeInfiniteEnergy: -4,0
+	Connector: -5,1
+	Connector: -5,-1
+	Connector: -5,-2
+	Connector: -5,-3
+	LifeInfiniteShields: -4,-4
+	XSolarPanel: -7,-2
+	XEmergencySupplies: -8,-2
+	XAntimatterGen: -9,-2
+	XQuantumBattery: -10,-2
+	XQuantumCompressor: -11,-2
+	Connector: -6,-2
+	XDisruptor: -7,2
+	XHyperLaser: -8,2
+	XSubspaceShredder: -9,1
+	XPulseBolt: -9,3
