@@ -1,6 +1,5 @@
 Technology: LifeInfiniteChasis
 	Name: Chasis Enginiering
-	Description: #R_INFINITE_HEALTH_DESC:5%
 
 	Icon: GuiOrbitalIcons::6*#a8df21
 	Symbol: EditIcons::7

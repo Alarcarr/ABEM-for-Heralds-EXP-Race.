@@ -1,6 +1,10 @@
 Technology: LifeInfiniteEnergyWeapons
 	Name: Energy Weapons
-	Description: #R_INFINITE_DAMAGE_DESC:5%
+	Description: <<
+		Increases the damage dealt by all energy weapons  by 5%.
+
+		Can be researched multiple times. Each subsequent time it is researched, the cost and time taken are increased.
+	>>
 
 	Icon: TechIcons::26
 	Symbol: EditIcons::7
@@ -17,7 +21,6 @@ Technology: LifeInfiniteEnergyWeapons
 
 	ResetWhenUnlocked()
 
-	AffectsTaggedSubsystems(IsReactor)
-	AddModifier( tag/IsReactor::PowerFactor(1.03) )
+	AffectsTaggedSubsystems(IsBeamWeapon)
 	AddModifier( tag/BeamBase::DamageFactor(1.05) )
 	ModAttribute(InfiniteEnergyWeaponsTech, Add, 1)

@@ -17,5 +17,4 @@ Technology: LifeInfiniteSociology
 
 	ResetWhenUnlocked()
 
-	ModAttribute(OrbitalHealthMod, Multiply, 1.05)
 	ModAttribute(InfinitePopTaken, Add, 1)

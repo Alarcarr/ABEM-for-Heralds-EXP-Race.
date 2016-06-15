@@ -1,6 +1,6 @@
 Technology: LifeInfiniteEnergy
 	Name: Energy Science
-	Description: #R_INFINITE_HEALTH_DESC:5%
+	Description: #INFINITE_ENERGY_DESC:5%
 
 	Icon: AffinityIcons::2
 	Symbol: EditIcons::7
@@ -17,5 +17,8 @@ Technology: LifeInfiniteEnergy
 
 	ResetWhenUnlocked()
 
-	fdsfsdfsdfdfsdfsdf
+	AddModifier( tag/IsReactor::PowerFactor(1.05) )
+	AffectsTaggedSubsystems(IsReactor)
+
+
 	ModAttribute(InfiniteEnergyTaken, Add, 1)

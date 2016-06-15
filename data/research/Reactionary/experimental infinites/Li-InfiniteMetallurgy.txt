@@ -1,6 +1,6 @@
 Technology: LifeInfiniteMetallurgy
 	Name: Metallurgy
-	Description: #R_INFINITE_HEALTH_DESC:5%
+	Description: #INFINITE_METALLURGY_DESC
 
 	Icon: AffinityIcons::4
 	Symbol: EditIcons::7
@@ -12,8 +12,8 @@ Technology: LifeInfiniteMetallurgy
 	Point Cost: 500
 	Time Cost: 60
 
-	AddPointCostAttribute(InfiniteHealthTaken, 300)
-	AddTimeCostAttribute(InfiniteHealthTaken, 15)
+	AddPointCostAttribute(InfiniteMetallurgyTaken, 300)
+	AddTimeCostAttribute(InfiniteMetallurgyTaken, 15)
 
 	ResetWhenUnlocked()
 
