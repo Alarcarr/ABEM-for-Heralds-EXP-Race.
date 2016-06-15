@@ -11,7 +11,7 @@ Technology: XFlakBattery
 
 	Icon: Flak::0
 	Color: #41fdc1
-	
+
 	UnlockSubsystem(FlakBattery)
 	SkipOnUnlockedSubsystem(FlakBattery)
 
@@ -20,7 +20,6 @@ Technology: XFlakBattery
 Technology: XMuonCannon
 	Name: #R_SYS_MUON_CANNON
 	Description: #R_SYS_MUON_CANNON_DESC
-	Class: Unlock
 	Category: Reactionary
 
 	Point Cost: 500
@@ -39,7 +38,6 @@ Technology: XMuonCannon
 Technology: XParticleLance
 	Name: #R_SYS_PARTICLELANCE
 	Description: #R_SYS_PARTICLELANCE_DESC
-	Class: Unlock
 	Category: Reactionary
 
 	DLC: Heralds
@@ -50,7 +48,7 @@ Technology: XParticleLance
 
 	Icon: ParticleLance::2
 	Color: #ff7600
-	
+
 	UnlockSubsystem(ParticleLance)
 	SkipOnUnlockedSubsystem(ParticleLance)
 

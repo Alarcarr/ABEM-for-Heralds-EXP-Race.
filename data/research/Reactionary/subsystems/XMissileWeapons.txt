@@ -11,12 +11,12 @@ Technology: XDroneLauncher
 
 	Icon: MissileLauncher::0
 	Color: #e6ed00
-	
+
 	UnlockSubsystem(DroneLauncher)
 	SkipOnUnlockedSubsystem(DroneLauncher)
 
 	SecondaryMoneyCost(1000)
-	
+
 Technology: XShockMissiles
 	Name: #R_SYS_SHOCKMISSILES
 	Description: #R_SYS_SHOCKMISSILES_DESC
@@ -30,17 +30,17 @@ Technology: XShockMissiles
 
 	Icon: MissileLauncher::0
 	Color: #444ca0
-	
+
 	UnlockSubsystem(ShockMissiles)
 	SkipOnUnlockedSubsystem(ShockMissiles)
 
 	SecondaryMoneyCost(750)
-	
+
 
 Technology: XWarhead
 	Name: #R_SYS_WARHEAD
 	Description: #R_SYS_WARHEAD_DESC
-	Category: Subsystems
+	Category: Reactionary
 
 	Point Cost: 600
 	Time Cost: 120
@@ -50,7 +50,6 @@ Technology: XWarhead
 
 	DLC: Heralds
 	DLC Replace: SupportCap
-	
+
 	UnlockSubsystem(Warhead)
 	SkipOnUnlockedSubsystem(Warhead)
-

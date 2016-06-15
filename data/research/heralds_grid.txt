@@ -14,7 +14,6 @@ Grid: Heralds
 	XTitanHull: 5,3
 	XDestroyerHull: 5,1
 	XColossusHull: 6,4
-	LifeInfiniteMegaconstruction: 3,5
 	XPlasmaThrower: -6,2
 	Connector: -3,0
 	LifeInfiniteEnergy: -4,0
@@ -40,7 +39,6 @@ Grid: Heralds
 	XAntimatterGen: -10,-3
 	PowerGeneration: -10,-1
 	XQuantumBattery: -11,-3
-	XQuantumCompressor: -12,-3
 	Connector: -2,-1
 	Connector: 0,0
 	Connector: -1,-2
@@ -64,3 +62,21 @@ Grid: Heralds
 	Connector: 1,-4
 	LifeInfiniteMissileWeapons: 0,-5
 	LifeInfiniteDamage: 2,-4
+	XDroneLauncher: 0,-6
+	XShockMissiles: -1,-7
+	XWarhead: -1,-8
+	XMuonCannon: 3,-4
+	XFlakBattery: 4,-4
+	XParticleLance: 5,-4
+	LifeInfiniteMegaconstruction: 2,7
+	Connector: 2,6
+	Connector: 2,5
+	XRingHabitat: 3,7
+	XArtificialPlanetoid: 4,7
+	XRingworld: 5,7
+	Connector: 2,8
+	XVacuumTelescope: 2,9
+	XStarForge: 1,8
+	SupportSize: 4,-1
+	XQuantumCompressor: -11,-2
+	Laboratories: -9,-4
