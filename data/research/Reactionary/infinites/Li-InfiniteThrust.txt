@@ -1,5 +1,5 @@
 Technology: LifeInfiniteThrust
-	Name: #R_INFINITE_THRUST
+	Name: #INFINITE_THRUST
 	Description: #R_INFINITE_THRUST_DESC:5%
 
 	Icon: techPropulsion * #e2f83a
@@ -14,7 +14,8 @@ Technology: LifeInfiniteThrust
 
 	AddPointCostAttribute(InfiniteThrustTaken, 300)
 	AddTimeCostAttribute(InfiniteThrustTaken, 10)
-
+	
+	AffectsTaggedSubsystems(Engine)
 	ResetWhenUnlocked()
 
 	AddModifier( ThrustFactor(1.05) )

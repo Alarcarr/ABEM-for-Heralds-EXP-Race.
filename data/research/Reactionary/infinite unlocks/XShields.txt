@@ -5,7 +5,7 @@ Technology: XShieldGen
 	
 	Category: Reactionary
 
-	Point Cost: 500
+	Point Cost: 0
 	Time Cost: 90
 
 	Icon: FissionReactor
@@ -14,7 +14,7 @@ Technology: XShieldGen
 	UnlockSubsystem(ShieldGen)
 	SkipOnUnlockedSubsystem(ShieldGen)
 
-	SecondaryEnergyCost(1000)
+	SecondaryEnergyCost(700)
 	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 1, #R_LIFESTYLE_REQ:Shields Modulation:1)
 	
 
@@ -27,7 +27,7 @@ Technology: XShieldHarmonizer
 	DLC: Heralds
 	DLC Replace: ShieldCap
 
-	Point Cost: 500
+	Point Cost: 0
 	Time Cost: 90
 
 	Icon: ShieldHarmonizer
@@ -36,7 +36,7 @@ Technology: XShieldHarmonizer
 	UnlockSubsystem(ShieldHarmonizer)
 	SkipOnUnlockedSubsystem(ShieldHarmonizer)
 
-	SecondaryEnergyCost(1500)
+	SecondaryEnergyCost(1300)
 	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 4, #R_LIFESTYLE_REQ:Shields Modulation:4)
 	
 Technology: XShieldHardener
@@ -54,7 +54,7 @@ Technology: XShieldHardener
 	UnlockSubsystem(ShieldHardener)
 	SkipOnUnlockedSubsystem(ShieldHardener)
 
-	SecondaryEnergyCost(1500)
+	SecondaryEnergyCost(1400)
 
 	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 5,#R_LIFESTYLE_REQ:Shields Modulation:5)
 	

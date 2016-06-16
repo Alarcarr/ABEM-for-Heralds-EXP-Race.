@@ -1,28 +1,9 @@
-Technology: XFlakBattery
-	Name: #R_SYS_FLAK_BATTERY
-	Description: #R_SYS_FLAK_BATTERY_DESC
-	Category: Reactionary
-
-	DLC: Heralds
-	DLC Replace: Damage
-
-	Point Cost: 600
-	Time Cost: 120
-
-	Icon: Flak::0
-	Color: #41fdc1
-
-	UnlockSubsystem(FlakBattery)
-	SkipOnUnlockedSubsystem(FlakBattery)
-
-	SecondaryEnergyCost(1000)
-
 Technology: XMuonCannon
 	Name: #R_SYS_MUON_CANNON
 	Description: #R_SYS_MUON_CANNON_DESC
 	Category: Reactionary
 
-	Point Cost: 500
+	Point Cost: 0
 	Time Cost: 90
 
 	Icon: Railgun::2
@@ -33,8 +14,56 @@ Technology: XMuonCannon
 
 	UnlockSubsystem(MuonBattery)
 
-	SecondaryInfluenceCost(12)
+	SecondaryMoneyCost(1200)
+	RequireEmpireAttributeGTE(InfiniteProyTech, 3, #R_LIFESTYLE_REQ:Proyectile Weapons:3)
 
+Technology: XFlakBattery
+	Name: #R_SYS_FLAK_BATTERY
+	Description: #R_SYS_FLAK_BATTERY_DESC
+	Category: Reactionary
+
+	DLC: Heralds
+	DLC Replace: Damage
+
+	Point Cost: 0
+	Time Cost: 120
+
+	Icon: Flak::0
+	Color: #41fdc1
+
+	UnlockSubsystem(FlakBattery)
+	SkipOnUnlockedSubsystem(FlakBattery)
+
+	SecondaryEnergyCost(1000)
+	RequireEmpireAttributeGTE(InfiniteProyTech, 4, #R_LIFESTYLE_REQ:Proyectile Weapons:4)
+
+
+
+Technology: XPlasmaThrower
+	Name: #R_SYS_PLASMA_THROWER
+	Description: #R_SYS_PLASMA_THROWER_DESC
+	
+	Category: Reactionary
+
+	Point Cost: 0
+	Time Cost: 120
+
+	DLC: Heralds
+	DLC Replace: Damage
+
+	Icon: RocketPod::0
+	Color: #ce815a
+	
+	UnlockSubsystem(PlasmaThrower)
+	UnlockSubsystem(SupportPlasmaThrower)
+	SkipOnUnlockedSubsystem(PlasmaThrower)
+
+	SecondaryMoneyCost(1000)
+	
+	RequireEmpireAttributeGTE(InfiniteEnergyWeaponsTech, 3, #R_LIFESTYLE_REQ:Energy Weapons:3)
+	RequireEmpireAttributeGTE(InfiniteProyTech, 4, #R_LIFESTYLE_REQ:Proyectile Weapons:4)
+	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 6 #R_LIFESTYLE_REQ:Energy:6)
+	
 Technology: XParticleLance
 	Name: #R_SYS_PARTICLELANCE
 	Description: #R_SYS_PARTICLELANCE_DESC
@@ -43,7 +72,7 @@ Technology: XParticleLance
 	DLC: Heralds
 	DLC Replace: Damage
 
-	Point Cost: 500
+	Point Cost: 0
 	Time Cost: 90
 
 	Icon: ParticleLance::2
@@ -52,4 +81,8 @@ Technology: XParticleLance
 	UnlockSubsystem(ParticleLance)
 	SkipOnUnlockedSubsystem(ParticleLance)
 
-	SecondaryFTLCost(250)
+	SecondaryMoneyCost(2000)
+	
+	RequireEmpireAttributeGTE(InfiniteEnergyWeaponsTech, 7, #R_LIFESTYLE_REQ:Energy Weapons:7)
+	RequireEmpireAttributeGTE(InfiniteProyTech, 5, #R_LIFESTYLE_REQ:Proyectile Weapons:5)
+	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 5, #R_LIFESTYLE_REQ:Energy:5)

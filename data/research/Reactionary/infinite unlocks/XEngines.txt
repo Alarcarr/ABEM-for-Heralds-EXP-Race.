@@ -8,7 +8,7 @@ Technology: XBoosterEngine
 	DLC: Heralds
 	DLC Replace: Thrust
 
-	Point Cost: 500
+	Point Cost: 0
 	Time Cost: 100
 
 	Icon: ResearchIcons::1
@@ -19,7 +19,7 @@ Technology: XBoosterEngine
 
 	SecondaryEnergyCost(1000)
 
-	RequireEmpireAttributeGTE(InfiniteThrustTaken, 2, #R_LIFESTYLE_REQ:Propulsion,2)
+	RequireEmpireAttributeGTE(InfiniteThrustTaken, 2, #R_LIFESTYLE_REQ:Propulsion:2)
 
 
 
@@ -38,10 +38,13 @@ Technology: XSkipDrive
 	Icon: HexagonSubsystems::10 * #fff980
 	Color: #fff980
 	
+	SecondaryEnergyCost(1000)
+	
 	UnlockSubsystem(SkipDrive)
 	SkipOnUnlockedSubsystem(SkipDrive)
-	RequireEmpireAttributeGTE(InfiniteThrustTaken, 4, #R_LIFESTYLE_REQ:Propulsion,4)
-	
+	RequireEmpireAttributeGTE(InfiniteThrustTaken, 4, #R_LIFESTYLE_REQ:Propulsion:4)
+	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 4 #R_LIFESTYLE_REQ:Energy:4)
+
 	
 	
 Technology: XRamjet
@@ -63,4 +66,4 @@ Technology: XRamjet
 	SkipOnUnlockedSubsystem(Ramjet)
 
 	SecondaryMoneyCost(1000)
-	RequireEmpireAttributeGTE(InfiniteThrustTaken, 5,#R_LIFESTYLE_REQ:Propulsion,5)
+	RequireEmpireAttributeGTE(InfiniteThrustTaken, 5,#R_LIFESTYLE_REQ:Propulsion:5)

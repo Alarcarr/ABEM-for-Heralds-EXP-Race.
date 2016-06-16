@@ -9,17 +9,17 @@ Technology: LifeInfiniteEnergy
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 500
+	Point Cost: 400
 	Time Cost: 60
 
-	AddPointCostAttribute(InfiniteEnergyTaken, 300)
-	AddTimeCostAttribute(InfiniteEnergyTaken, 15)
+	AddPointCostAttribute(InfiniteEnergyTaken, 100)
+	AddTimeCostAttribute(InfiniteEnergyTaken, 10)
 
 	ResetWhenUnlocked()
 
-	AddModifier( tag/IsReactor::PowerFactor(1.05) )
+	AddModifier( tag/IsReactor::PowerFactor(1.05))
 	AffectsTaggedSubsystems(IsReactor)
-
-
 	AddEnergyIncome(0.5)
+	
+	
 	ModAttribute(InfiniteEnergyTaken, Add, 1)
