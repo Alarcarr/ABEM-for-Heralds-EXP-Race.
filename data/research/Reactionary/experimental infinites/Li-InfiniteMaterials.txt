@@ -12,8 +12,8 @@ Technology: LifeInfiniteMaterials
 	Point Cost: 300
 	Time Cost: 30
 
-	AddPointCostAttribute(InfiniteHealthTaken, 150)
-	AddTimeCostAttribute(InfiniteHealthTaken, 15)
+	AddPointCostAttribute(InfiniteHealthTaken, 100)
+	AddTimeCostAttribute(InfiniteHealthTaken, 10)
 
 	ResetWhenUnlocked()
 

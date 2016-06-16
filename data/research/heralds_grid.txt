@@ -1,7 +1,6 @@
 Grid: Heralds
 	Science: -2,0
 	LifeInfiniteEnergyWeapons: -5,2
-	Connector: 1,2
 	LifeInfiniteChasis: 2,2
 	Connector: -1,5
 	Connector: 2,3
@@ -51,7 +50,6 @@ Grid: Heralds
 	XLiquidArmor: -2,8
 	XNanoMesh: -3,9
 	XCrystalArmor: -2,10
-	Connector: 0,2
 	Connector: 0,-2
 	Connector: -2,-3
 	LifeInfiniteThrust: -2,-4
@@ -90,3 +88,7 @@ Grid: Heralds
 	XPlasmaThrower: 5,-4
 	XFlakBattery: 5,-6
 	ProjTracking: 6,-6
+	Connector: 0,2
+	Connector: 1,2
+	Connector: -4,6
+	Connector: -5,4

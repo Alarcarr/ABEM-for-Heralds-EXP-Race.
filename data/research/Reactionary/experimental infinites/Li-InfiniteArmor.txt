@@ -10,6 +10,7 @@ Technology: LifeInfiniteArmor
 
 	Point Cost: 200
 	Time Cost: 60
+	Description: #INFINITE_ARMOR_DESC:10%:10%
 
 	AddPointCostAttribute(InfiniteArmorTaken,150)
 	AddTimeCostAttribute(InfiniteArmorTaken, 15)
