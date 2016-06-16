@@ -42,7 +42,7 @@ Technology: XFlakBattery
 Technology: XPlasmaThrower
 	Name: #R_SYS_PLASMA_THROWER
 	Description: #R_SYS_PLASMA_THROWER_DESC
-	
+
 	Category: Reactionary
 
 	Point Cost: 0
@@ -53,17 +53,17 @@ Technology: XPlasmaThrower
 
 	Icon: RocketPod::0
 	Color: #ce815a
-	
+
 	UnlockSubsystem(PlasmaThrower)
 	UnlockSubsystem(SupportPlasmaThrower)
 	SkipOnUnlockedSubsystem(PlasmaThrower)
 
 	SecondaryMoneyCost(1000)
-	
+
 	RequireEmpireAttributeGTE(InfiniteEnergyWeaponsTech, 3, #R_LIFESTYLE_REQ:Energy Weapons:3)
 	RequireEmpireAttributeGTE(InfiniteProyTech, 4, #R_LIFESTYLE_REQ:Proyectile Weapons:4)
 	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 6 #R_LIFESTYLE_REQ:Energy:6)
-	
+
 Technology: XParticleLance
 	Name: #R_SYS_PARTICLELANCE
 	Description: #R_SYS_PARTICLELANCE_DESC
@@ -82,7 +82,32 @@ Technology: XParticleLance
 	SkipOnUnlockedSubsystem(ParticleLance)
 
 	SecondaryMoneyCost(2000)
-	
+
 	RequireEmpireAttributeGTE(InfiniteEnergyWeaponsTech, 7, #R_LIFESTYLE_REQ:Energy Weapons:7)
 	RequireEmpireAttributeGTE(InfiniteProyTech, 5, #R_LIFESTYLE_REQ:Proyectile Weapons:5)
 	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 5, #R_LIFESTYLE_REQ:Energy:5)
+
+
+///////////////////////////////////////
+//Proyectile WEAPONS SPECIAL UPGRADES/////////////
+////////////////////////////////////
+
+Technology: XProjTracking
+	Name: #R_ADVANCED_TRACKING
+	Description: #R_ADVANCED_TRACKING_DESC:40%
+
+	Icon: Railgun::3
+	Symbol: techHydraulics*#ffc419
+	Color: #80ffea
+
+	Category: Reactionary
+	Class: BigUpgrade
+
+	Point Cost: 750
+	Time Cost: 100
+
+	AddModifier( tag/IsProjWeapon::TrackingFactor(1.4) )
+	AddModifier( tag/IsProjWeapon::SpreadFactor(0.6) )
+	AddModifier( tag/IsProjWeapon::SupplyCostFactor(0.6) )
+
+	AffectsTaggedSubsystems(IsProjWeapon)

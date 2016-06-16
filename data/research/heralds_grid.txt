@@ -49,11 +49,6 @@ Grid: Heralds
 	XLiquidArmor: -2,8
 	XNanoMesh: -3,9
 	XCrystalArmor: -2,10
-	Connector: 0,-2
-	Connector: -2,-3
-	LifeInfiniteThrust: -2,-4
-	Connector: 0,-3
-	Connector: 1,-4
 	LifeInfiniteMegaconstruction: 2,7
 	Connector: 2,6
 	Connector: 2,5
@@ -70,23 +65,6 @@ Grid: Heralds
 	ColossusHull: 6,4
 	XRingworld: 5,8
 	XSysNilingArmor: -4,9
-	Connector: 0,-6
-	Connector: 0,-5
-	LifeInfiniteMissileWeapons: 0,-7
-	Connector: 1,-7
-	XDroneLauncher: 2,-8
-	XWarhead: 2,-6
-	DroneCount: 3,-8
-	XShockMissiles: 0,-8
-	MissileRange: 1,-9
-	LifeInfiniteDamage: 3,-4
-	XMuonCannon: 3,-5
-	Connector: 2,-4
-	XParticleLance: 3,-3
-	Connector: 4,-5
-	XPlasmaThrower: 5,-4
-	XFlakBattery: 5,-6
-	ProjTracking: 6,-6
 	Connector: 0,2
 	Connector: 1,2
 	Connector: -4,5
@@ -98,3 +76,36 @@ Grid: Heralds
 	Connector: -8,-1
 	XConstructionBay: -6,6
 	XOreProcessor: -7,6
+	Connector: 2,-6
+	Connector: 2,-7
+	Connector: 2,-8
+	LifeInfiniteDamage: 4,-7
+	Connector: 3,-7
+	LifeInfiniteMissileWeapons: 1,-9
+	Connector: 5,-8
+	XMuonCannon: 6,-8
+	Connector: 5,-6
+	XParticleLance: 4,-5
+	XProjTracking: 6,-6
+	XFlakBattery: 7,-8
+	XPlasmaThrower: 4,-9
+	XDroneLauncher: 0,-9
+	Connector: 2,-10
+	XDroneCount: -1,-9
+	LifeInfiniteThrust: -3,-10
+	Connector: -3,-9
+	Connector: -2,-8
+	Connector: -2,-7
+	Connector: 4,-11
+	Connector: 1,-11
+	XMissileRange: 3,-10
+	XSelfDestruct: 0,-11
+	Connector: 2,-12
+	XWarhead: 1,-13
+	XShockMissiles: 3,-12
+	Connector: 1,-6
+	Connector: -2,-3
+	Connector: -2,-4
+	Connector: -2,-5
+	Connector: -1,-6
+	Connector: 0,-6

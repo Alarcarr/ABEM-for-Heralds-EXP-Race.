@@ -1,12 +1,6 @@
 Technology: LifeInfiniteMissileWeapons
 	Name: Missille Weapons
-	Description: <<
-		Missiles damage incresed by fdfsd
-
-		At level 
-		At level
-	>>
-
+	Description: #INFINITE_MISILE_WEAPONS:7%
 	Icon: TechIcons::27
 	Symbol: EditIcons::7
 	Color: #ac0cd4
@@ -23,5 +17,5 @@ Technology: LifeInfiniteMissileWeapons
 	ResetWhenUnlocked()
 
 	AffectsTaggedSubsystems(IsExplosiveWeapon)
-	AddModifier( tag/MissileBase::DamageFactor(1.05) )
+	AddModifier( tag/MissileBase::DamageFactor(1.07) )
 	ModAttribute(InfiniteMissileTech, Add, 1)

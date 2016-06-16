@@ -17,7 +17,7 @@ Technology: XDroneLauncher
 
 	SecondaryMoneyCost(1000)
 	RequireEmpireAttributeGTE(InfiniteMissileTech, 5,#R_LIFESTYLE_REQ:Missile Weapons:5 )
-	
+
 
 
 
@@ -58,7 +58,7 @@ Technology: XWarhead
 	UnlockSubsystem(Warhead)
 	SkipOnUnlockedSubsystem(Warhead)
 	RequireEmpireAttributeGTE(InfiniteMissileTech, 8,#R_LIFESTYLE_REQ:Missile Weapons:8 )
-///////////////////////////////////	
+///////////////////////////////////
 //MISILE SPECIAL UPGRADES/////////////
 ////////////////////////////////////
 
@@ -70,7 +70,7 @@ Technology: XDroneCount
 	Symbol: techImpact*#af7600
 	Color: #e6ed00
 
-	Category: Special Upgrades
+	Category: Reactionary
 	Class: BigUpgrade
 
 	Point Cost: 750
@@ -89,9 +89,8 @@ Technology: XMissileRange
 	Symbol: techTargeting*#80ffea
 	Color: #80ffea
 
-	Category: Special Upgrades
+	Category: Reactionary
 	Class: BigUpgrade
-
 	Point Cost: 750
 	Time Cost: 100
 

@@ -97,9 +97,9 @@ Technology: XBeamCycling
 	Icon: Laser::3
 	Symbol: techCooling * #c680ff
 	Color: #80ffea
-
-	Category: Special Upgrades
-	Class: BigUpgrade
+	
+	Category: Reactionary
+	Class: Special Upgrades
 
 	Point Cost: 750
 	Time Cost: 100

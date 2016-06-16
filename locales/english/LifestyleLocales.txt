@@ -22,3 +22,17 @@ INFINITE_ARMOR_DESC:<<
 	Increases the armor hitpoints by   $1.
 	Increases the armor damage resistance by   $2.
 >>
+
+INFINITE_PROYECTILE_WEAPONS:<<
+	[i][color=#aaa] [/color][/i]
+
+	Increases the projectile weapons damage by  $1.
+	
+>>
+
+INFINITE_MISILE_WEAPONS:<<
+	[i][color=#aaa] [/color][/i]
+
+	Increases the missile damage by  $1.
+	
+>>
