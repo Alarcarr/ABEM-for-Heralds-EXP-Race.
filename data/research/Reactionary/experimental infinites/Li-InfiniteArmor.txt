@@ -8,14 +8,16 @@ Technology: LifeInfiniteArmor
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 500
+	Point Cost: 200
 	Time Cost: 60
 
-	AddPointCostAttribute(InfiniteArmorTaken, 300)
+	AddPointCostAttribute(InfiniteArmorTaken,150)
 	AddTimeCostAttribute(InfiniteArmorTaken, 15)
 
 	ResetWhenUnlocked()
 
-	AddModifier(HpFactor(1.05))
+	AddModifier(any::ArmorResistFactor(1.10))
+	AddModifier(ReactiveArmor::ImpactLevelFactor(1.10))
+	AddModifier(tag/IsArmor::HpFactor(1.10))
 	ModAttribute(OrbitalHealthMod, Multiply, 1.022)
 	ModAttribute(InfiniteArmorTaken, Add, 1)

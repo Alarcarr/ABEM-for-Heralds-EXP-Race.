@@ -9,13 +9,15 @@ Technology: LifeInfiniteMetallurgy
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 500
+	Point Cost: 300
 	Time Cost: 60
 
-	AddPointCostAttribute(InfiniteMetallurgyTaken, 300)
+	AddPointCostAttribute(InfiniteMetallurgyTaken, 150)
 	AddTimeCostAttribute(InfiniteMetallurgyTaken, 15)
 
 	ResetWhenUnlocked()
 
+	ModAttribute(OrbitalBuildCostFactor, Multiply, 0.95)
+	ModAttribute(OrbitalLaborCostFactor, Multiply, 0.90)
 	ModAttribute(FactoryLaborMod, Add, 3)
 	ModAttribute(InfiniteMetallurgyTaken, Add, 1)

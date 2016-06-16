@@ -13,11 +13,11 @@ Technology: LifeInfiniteEnergyWeapons
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 700
-	Time Cost: 90
+	Point Cost: 200
+	Time Cost: 30
 
-	AddPointCostAttribute(InfiniteEnergyWeaponsTech, 350)
-	AddTimeCostAttribute(InfiniteEnergyWeaponsTech, 15)
+	AddPointCostAttribute(InfiniteEnergyWeaponsTech, 100)
+	AddTimeCostAttribute(InfiniteEnergyWeaponsTech, 10)
 
 	ResetWhenUnlocked()
 

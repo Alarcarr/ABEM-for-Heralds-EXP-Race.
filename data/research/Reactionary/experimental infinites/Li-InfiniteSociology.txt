@@ -1,6 +1,6 @@
 Technology: LifeInfiniteSociology
 	Name: Sociology
-	Description: #R_INFINITE_HEALTH_DESC:5%
+	Description: 1POP to level 3+ 0.3 LVL2+
 
 	Icon: PlateArmor
 	Symbol: EditIcons::7
@@ -9,12 +9,14 @@ Technology: LifeInfiniteSociology
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 500
+	Point Cost: 300
 	Time Cost: 60
 
-	AddPointCostAttribute(InfinitePopTaken, 300)
-	AddTimeCostAttribute(InfinitePopTaken, 15)
+	AddPointCostAttribute(InfinitePopTaken, 100)
+	AddTimeCostAttribute(InfinitePopTaken, 10)
 
 	ResetWhenUnlocked()
 
+	ModAttribute(PopulationLevel2Mod, Add, 0.3)
+	ModAttribute(PopulationLevel3Mod, Add, 1)
 	ModAttribute(InfinitePopTaken, Add, 1)

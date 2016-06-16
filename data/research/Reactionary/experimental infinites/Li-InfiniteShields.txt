@@ -9,16 +9,16 @@ Technology: LifeInfiniteShields
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 400
-	Time Cost: 40
+	Point Cost: 300
+	Time Cost: 30
 
 	AddPointCostAttribute(InfiniteShieldsTaken, 200)
-	AddTimeCostAttribute(InfiniteShieldsTaken, 10)
+	AddTimeCostAttribute(InfiniteShieldsTaken, 20)
 
 	ResetWhenUnlocked()
 
-	AddModifier(ShieldCapacityFactor(1.05))
-	AddModifier(ShieldRegenFactor(1.05))
+	AddModifier(ShieldCapacityFactor(1.07))
+	AddModifier(ShieldRegenFactor(1.07))
 
 	RequireEmpireAttributeGTE(InfiniteEnergyTaken, 3, #R_LIFESTYLE_REQ:Energy,3)
 	ModAttribute(InfiniteShieldsTaken, Add, 1)

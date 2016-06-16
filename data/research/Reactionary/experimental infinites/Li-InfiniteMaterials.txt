@@ -9,10 +9,10 @@ Technology: LifeInfiniteMaterials
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 500
-	Time Cost: 60
+	Point Cost: 300
+	Time Cost: 30
 
-	AddPointCostAttribute(InfiniteHealthTaken, 300)
+	AddPointCostAttribute(InfiniteHealthTaken, 150)
 	AddTimeCostAttribute(InfiniteHealthTaken, 15)
 
 	ResetWhenUnlocked()

@@ -9,14 +9,15 @@ Technology: LifeInfiniteDamage
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 700
-	Time Cost: 90
+	Point Cost: 300
+	Time Cost: 30
 
-	AddPointCostAttribute(InfiniteProyTech, 350)
-	AddTimeCostAttribute(InfiniteProyTech, 15)
+	AddPointCostAttribute(InfiniteProyTech, 100)
+	AddTimeCostAttribute(InfiniteProyTech, 10)
 
 	ResetWhenUnlocked()
 
+	AffectsTaggedSubsystems(IsProjWeapon)
 	AddModifier( tag/Weapon::DamageFactor(1.05) )
 	ModAttribute(StaticDamageFactor, Multiply, 1.05)
 	ModAttribute(InfiniteProyTech, Add, 1)

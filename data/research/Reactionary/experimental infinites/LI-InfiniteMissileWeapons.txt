@@ -14,13 +14,14 @@ Technology: LifeInfiniteMissileWeapons
 	Category: InfinitesLifeStyle
 	Class: Keystone
 
-	Point Cost: 700
-	Time Cost: 90
+	Point Cost: 300
+	Time Cost: 30
 
-	AddPointCostAttribute(InfiniteMissileTech, 350)
-	AddTimeCostAttribute(InfiniteMissileTech, 15)
+	AddPointCostAttribute(InfiniteMissileTech, 100)
+	AddTimeCostAttribute(InfiniteMissileTech, 10)
 
 	ResetWhenUnlocked()
 
+	AffectsTaggedSubsystems(IsExplosiveWeapon)
 	AddModifier( tag/MissileBase::DamageFactor(1.05) )
 	ModAttribute(InfiniteMissileTech, Add, 1)

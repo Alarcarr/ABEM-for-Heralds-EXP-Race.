@@ -1,6 +1,6 @@
 Technology: LifeInfiniteEnergy
 	Name: Energy Science
-	Description: #INFINITE_ENERGY_DESC:5%:1
+	Description: #INFINITE_ENERGY_DESC:5%:0.5:50
 
 	Icon: AffinityIcons::2
 	Symbol: EditIcons::7
@@ -21,4 +21,5 @@ Technology: LifeInfiniteEnergy
 	AffectsTaggedSubsystems(IsReactor)
 
 
+	AddEnergyIncome(0.5)
 	ModAttribute(InfiniteEnergyTaken, Add, 1)
