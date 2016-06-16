@@ -44,3 +44,45 @@ Technology: XBulkhead
 
 	UnlockModule(Bulkhead)
 	SkipOnUnlockedModule(Bulkhead)
+
+Technology: XSolarSatellite
+	Name: #R_ORB_SOLAR_SATELLITE
+	Description: #R_ORB_SOLAR_SATELLITE_DESC
+	Category: Reactionary
+
+	Point Cost: 500
+	Time Cost: 90
+
+	Icon: GuiOrbitalIcons::13
+	Color: #ffdc40
+	
+	UnlockTag(SolarSatelliteUnlock)
+	SkipOnUnlockedTag(SolarSatelliteUnlock)
+	
+Technology: XHydroponicsSatellite
+	Name: #R_ORB_HYDROPONICS_SATELLITE
+	Description: #R_ORB_HYDROPONICS_SATELLITE_DESC
+	Category: Reactionary
+
+	Point Cost: 500
+	Time Cost: 90
+
+	Icon: GuiOrbitalIcons::14
+	Color: #ffdc40
+	
+	UnlockTag(HydroponicsSatelliteUnlock)
+	SkipOnUnlockedTag(HydroponicsSatelliteUnlock)
+
+Technology: XDefenseSatellite
+	Name: #R_ORB_DEFENSE_SATELLITE
+	Description: #R_ORB_DEFENSE_SATELLITE_DESC
+	Category: Reactionary
+
+	Point Cost: 500
+	Time Cost: 90
+
+	Icon: GuiOrbitalIcons::14
+	Color: #ffdc40
+	
+	UnlockTag(DefenseSatelliteUnlock)
+	SkipOnUnlockedTag(DefenseSatelliteUnlock)
