@@ -19,7 +19,6 @@ Grid: Heralds
 	Connector: -5,-2
 	Connector: -5,-3
 	LifeInfiniteShields: -4,-4
-	XSolarPanel: -7,-2
 	XEmergencySupplies: -8,-2
 	Connector: -6,-2
 	XDisruptor: -7,2
@@ -90,5 +89,12 @@ Grid: Heralds
 	ProjTracking: 6,-6
 	Connector: 0,2
 	Connector: 1,2
-	Connector: -4,6
-	Connector: -5,4
+	Connector: -4,5
+	Connector: -5,5
+	XBulkhead: -5,6
+	XSolarSatellite: -7,-3
+	XSolarPanel: -7,-1
+	Connector: -8,-3
+	Connector: -8,-1
+	XConstructionBay: -6,6
+	XOreProcessor: -7,6

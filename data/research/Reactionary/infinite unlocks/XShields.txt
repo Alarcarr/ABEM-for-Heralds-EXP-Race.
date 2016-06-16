@@ -15,7 +15,7 @@ Technology: XShieldGen
 	SkipOnUnlockedSubsystem(ShieldGen)
 
 	SecondaryEnergyCost(1000)
-	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 1, #R_LIFESTYLE_REQ:Shields:1)
+	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 1, #R_LIFESTYLE_REQ:Shields Modulation:1)
 	
 
 Technology: XShieldHarmonizer
@@ -37,7 +37,7 @@ Technology: XShieldHarmonizer
 	SkipOnUnlockedSubsystem(ShieldHarmonizer)
 
 	SecondaryEnergyCost(1500)
-	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 4, #R_LIFESTYLE_REQ:Shields:4)
+	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 4, #R_LIFESTYLE_REQ:Shields Modulation:4)
 	
 Technology: XShieldHardener
 	Name: #R_SYS_SHIELD_HARDENER
@@ -56,7 +56,7 @@ Technology: XShieldHardener
 
 	SecondaryEnergyCost(1500)
 
-	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 5,#R_LIFESTYLE_REQ:Shields:5)
+	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 5,#R_LIFESTYLE_REQ:Shields Modulation:5)
 	
 
 Technology: XDeflectorArray
@@ -79,7 +79,7 @@ Technology: XDeflectorArray
 
 	SecondaryEnergyCost(1500)
 	
-	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 6,#R_LIFESTYLE_REQ:Shields:6)
+	RequireEmpireAttributeGTE(InfiniteShieldsTaken, 6,#R_LIFESTYLE_REQ:Shields Modulation:6)
 
 
 
